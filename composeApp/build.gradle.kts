@@ -44,10 +44,10 @@ compose.desktop {
                 iconFile.set(file("src/commonMain/composeResources/drawable/pdf_combine_windows.ico"))
             }
             linux {
-                iconFile.set(file("src/commonMain/composeResources/drawable/pdf_combine_windows.png"))
+                iconFile.set(file("src/commonMain/composeResources/drawable/pdf_combine_linux.png"))
             }
             macOS {
-                iconFile.set(file("src/commonMain/composeResources/drawable/pdf_combine_windows.icns"))
+                iconFile.set(file("src/commonMain/composeResources/drawable/pdf_combine_macos.icns"))
             }
         }
     }
