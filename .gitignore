@@ -1,0 +1,40 @@
+# Gradle & Build Artifacts
+*.iml
+.kotlin
+.gradle
+**/build/
+xcuserdata
+!src/**/build/
+.externalNativeBuild
+.cxx
+
+# Local Configs
+local.properties
+.idea
+.DS_Store
+captures
+
+# Android Keystore & Signing
+*.jks
+*.keystore
+
+# Crash Reports & Debugging
+crashlytics/
+firebase-debug.log
+
+# Logs & Temporary Files
+*.log
+*.tmp
+*.swp
+
+# JetBrains Fleet & VS Code
+.fleet/
+.vscode/
+
+# Xcode (if working on iOS/macOS)
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+!*.xcodeproj/xcshareddata/
+!*.xcodeproj/project.xcworkspace/
+!*.xcworkspace/contents.xcworkspacedata
+**/xcshareddata/WorkspaceSettings.xcsettings
